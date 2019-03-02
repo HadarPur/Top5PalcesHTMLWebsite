@@ -1,0 +1,52 @@
+<html dir="ltr">
+    <head>
+        <title>Holland</title>  
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+        <link rel="stylesheet" type = "text/css" href = "styling.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">              
+        <script type = "text/javascript" src="photoScript.js"></script>
+    </head>
+
+    <body id = "hollandPageBody">
+        <div >
+            <a href = "index.html"><button class="btn w3-round-large"><i class="fa fa-home"></i></button></a>
+        </div>
+        <div class="c">Holland</div>
+        <table id = "descriptionTable">
+            <tr>
+                <td>
+                    <p>
+                        Holland is a region and former province on the western coast of the Netherlands. 
+                        The name Holland is also frequently used informally to refer to the whole of the country of the Netherlands. 
+                        This usage is commonly accepted in other countries, and sometimes employed by the Dutch themselves. However, some in the Netherlands, particularly those 
+                        from regions outside Holland, may find it undesirable or misrepresentative to use the term for the whole country.
+                        From the 10th to the 16th century, Holland proper was a unified political region within the Holy Roman Empire as a county ruled by the Counts of Holland. 
+                        By the 17th century, the province of Holland had risen to become a maritime and economic power, dominating the other provinces of the newly independent Dutch Republic.
+                        The area of the former County of Holland roughly coincides with the two current Dutch provinces of North Holland and South Holland in which it was divided, 
+                        which together include the Netherlands' three largest cities: the de jure capital city of Amsterdam; Rotterdam, home of Europe's largest port; and the seat of government of The Hague.
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <br></br>        
+        <table id = "photoTable">
+            <tr>
+                <td id = "photoCol"> <img src = "hollandPic/holland1.jpg" height="200" alt="Holland" onclick="setOnClickImage(this)"></td> 
+                <td id = "photoCol"> <img src = "hollandPic/holland2.jpg" height="200" alt="Holland" onclick="setOnClickImage(this)"></td> 
+                <td id = "photoCol"> <img src = "hollandPic/holland3.jpg" height="200" alt="Holland" onclick="setOnClickImage(this)"></td> 
+                <td id = "photoCol"> <img src = "hollandPic/holland4.jpg" height="200" alt="Holland" onclick="setOnClickImage(this)"></td> 
+            </tr>
+        </table>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+    </body>
+</html>
